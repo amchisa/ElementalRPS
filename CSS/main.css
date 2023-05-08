@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2e2e2e;
+  background-image: url(../images/background.jpg);
+  font-family: "Poppins", serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+p, table td {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px white solid;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: white;
+  font-family: "Poppins", serif;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+table {
+  border-color: #f2f2f2;
+  border-width: 2px;
+  border-style: solid;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border-color: #f2f2f2;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+}
+
+h1, nav, h3 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a:visited, nav ul li a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0057e3;
+}
+
+input[type="radio"] {
+  display: inline;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+label:hover{
+  filter: brightness(1.1);
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="radio"]:checked + label img{
+  border: 2px white solid;
+  filter: brightness(1.1);
+}
+
+/*--------------------------------- Classes ---------------------------------*/
+
+.footer, .lobby {
+  text-align: center;
+}
+
+.lobby {
+  line-height: 10000%;
+}
+
+.line {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f2f2f2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+.center {
+  text-align: center;
+}
+
+/*---------------------------------- ID's ----------------------------------*/
+
+#header, #title{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  color: white;
+}
+
+#information_station {
+  table-layout: fixed;
+}
+
+#title {
+  background-color: #2e2e2e;
+}
+
+#header {
+  padding-bottom: 14px;
+  background-color: #282A36;
+  padding-top: 15px;
+}
+
+#header nav ul li a:link, #header nav ul li a:visited {
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 9.09%;
+  margin: -4px;
+  background-color: #282A36;
+  color: white;
+  transition: all 0.2s;
+}
+
+#header nav ul li a:hover {
+  background-color: #383b4d;
+}
+
+#header nav ul li a.currentpage {
+  background-color: #303342;
+}
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  background-color: #1f1f1f;
+  line-height: 150%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
