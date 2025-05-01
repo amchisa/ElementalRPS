@@ -18,14 +18,18 @@ ElementalRPS is a unique twist on the classic Rock, Paper, Scissors game, set in
 - If you encounter visual glitches or audio issues, try refreshing the page or clearing your browser cache.
 - Dialogue is randomized each match, but it’s pulled from a limited pool — feel free to add more in the script to keep things interesting.
 
-## :zap: Usage  
+## :zap: Usage
+
+You can play the game directly from the web here: [Play ElementalRPS](https://amchisa.github.io/ElementalRPS/)
+
+If you'd prefer to have a local copy, follow the steps below.
 
 ### :electric_plug: Installation  
 1. Clone the repository using the following command:  
 ```bash
 $ git clone https://github.com/amchisa/ElementalRPS
 ```
-2. Open `Chia_cpt_project_lobby.html` in your web browser to begin playing.
+2. Open `index.html` in your web browser to begin playing.
 
 ## :question: FAQ
 
