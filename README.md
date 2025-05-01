@@ -1,5 +1,5 @@
 # ElementalRPS  
-ATLA themed RPS (Rock Paper Scissors) web-application. Features many AI difficulty modes and random dialogue for a varied single-player experience.
+ATLA themed RPS (Rock Paper Scissors) web-game. Features many AI difficulty modes and random dialogue for a varied single-player experience.
 
 ## :ledger: Table of Contents  
 - [About](#beginner-about)
